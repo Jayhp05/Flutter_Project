@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'widgets/w01_textwidget.dart';
-import 'widgets/w02_imagewidget.dart';
+import 'widgets/w03_buttonwidget.dart';
+import 'widgets/w04_gesturedetector.dart';
 
 void main() {
   // WidgetExam 안에서 body를 변경하는 것은 hot reload가 적용됨
@@ -21,7 +22,7 @@ class WidgetExam extends StatelessWidget {
 // MaterialApp의 home 파라미터에 Scaffold 위젯을 사용함
       home: Scaffold(
         /*body: TextWidgetExam(),*/
-        body: ImageWidgetExam(),
+        body: GestureDetectorExam(),
       ),
     );
   }
