@@ -2,6 +2,11 @@ import 'package:flutter/material.dart';
 import 'widgets/w01_textwidget.dart';
 import 'widgets/w03_buttonwidget.dart';
 import 'widgets/w04_gesturedetector.dart';
+import 'widgets/w05_rowwidget.dart';
+import 'widgets/w06_columnwidget.dart';
+import 'widgets/w07_flexiblewidget.dart';
+import 'widgets/w08_expandedwidget.dart';
+import 'widgets/w09_circular_indicator.dart';
 
 void main() {
   // WidgetExam 안에서 body를 변경하는 것은 hot reload가 적용됨
@@ -22,7 +27,10 @@ class WidgetExam extends StatelessWidget {
 // MaterialApp의 home 파라미터에 Scaffold 위젯을 사용함
       home: Scaffold(
         /*body: TextWidgetExam(),*/
-        body: GestureDetectorExam(),
+        /*body: ColumnWidgetExam(),*/
+        /*body: FlexibleExam(),*/
+        /*body: ExpandedExam(),*/
+        body: CircularIndicatorExam(),
       ),
     );
   }
